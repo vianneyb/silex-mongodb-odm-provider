@@ -1,5 +1,5 @@
 {
-    "name": "df/silex-doctrine-mongodb-odm-provider",
+    "name": "vianneyb/silex-doctrine-mongodb-odm-provider",
     "description": "Silex Doctrine MongoDB ODM Provider for PHP 7.n, based on saxulum's MongoDb ODM Provider",
     "keywords": ["dunkelfrosch", "df", "pimple", "silex", "doctrine", "mongo", "mongodb", "odm", "database", "service", "provider"],
     "license": "MIT",
@@ -15,20 +15,15 @@
             "email": "dominik.zogg@gmail.com"
         }
     ],
-    "support": {
-        "email": "patrick.paechnatz@gmail.com",
-        "issues": "https://github.com/dunkelfrosch/silex-mongodb-odm-provider/issues",
-        "source": "https://github.com/dunkelfrosch/silex-mongodb-odm-provider"
-    },
     "provide": {
         "ext-mongo": "1.6.13"
     },
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^7.0",
         "psr/log": "1.0.*",
         "doctrine/mongodb": "^1.3.0",
-        "mongodb/mongodb": "^1.0.2",
-        "doctrine/mongodb-odm": "^1.0.7",
+        "mongodb/mongodb": "^1.1.2",
+        "doctrine/mongodb-odm": "^1.1.5",
         "df/silex-doctrine-mongodb-provider": "^1.0.1"
     },
     "require-dev": {
